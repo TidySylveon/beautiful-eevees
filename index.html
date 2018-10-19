@@ -3,118 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>TidySylveon's garden</title>
+    <link rel="stylesheet" href="Style.css">
   </head>
-
-  <style>
-    .grid{
-      display:grid;
-      grid-template-columns:100px auto;
-    }
-    .label {
-      float:left;
-      position:absolute;
-      box-sizing:border-box;
-      width:15px;
-      height:23px;
-      margin-top:1px;
-      margin-bottom:1px;
-    }
-    #gray {
-      border:#666666;
-      background-color:#666666;
-    }
-    #brown {
-      border:#c99744;
-      background-color:#c99744;
-    }
-    #blue {
-      border:#8ac6c4;
-      background-color:#8ac6c4;
-    }
-    #yellow {
-      border:#ebc908;
-      background-color:#ebc908;
-    }
-    #red {
-      border:#de6d5a;
-      background-color:#de6d5a;
-    }
-    #violet {
-      border:#d6c2dd;
-      background-color:#d6c2dd;
-    }
-    #black {
-      border:#2c3031;
-      background-color:#2c3031;
-    }
-    #green {
-      border:#afdb8a;
-      background-color:#afdb8a;
-    }
-    #skyblue {
-      border:#93cae2;
-      background-color:#93cae2;
-    }
-    #pink {
-      border:#e28b9a;
-      background-color:#e28b9a;
-    }
-    a {
-      border: 2px solid #00000099;
-      display:block;
-      border-right:none;
-      border-left:none;
-      position:relative;
-      text-decoration:none;
-    }
-    .text{
-      position:relative;
-      left:3px;
-      z-index:1;
-    }
-    .content {
-      border: 2px solid #00000099;
-    }
-    .current {
-      border: 2px solid #00000099;
-      width: 200px;
-      border-left:none;
-    }
-    #weak-gray {
-      background-color:;
-    }
-    #weak-brown {
-      background-color:;
-    }
-    #weak-blue {
-      background-color:;
-    }
-    #weak-yellow {
-      background-color:;
-    }
-    #weak-red {
-      background-color:;
-    }
-    #weak-violet {
-      background-color:;
-    }
-    #weak-black {
-      background-color:;
-    }
-    #weak-green {
-      background-color:;
-    }
-    #weak-skyblue {
-      background-color:;
-    }
-    #weak-pink {
-      background-color:;
-    }
-  </style>
   <body>
     <div class="grid">
-      <div class="index">
-        <span class="label" id="gray"></span><a href="index.html" class="current" id="weak-gray"><span class="text">Index</span></a>
+      <div>
+        <span class="label" id="gray"></span><a class="current" id="weak-gray"><span class="text">Index</span></a>
         <span class="label" id="brown"></span><a href="Eevee.html" id="weak-brown"><span class="text">Eevee</span></a>
         <span class="label" id="blue"></span><a href="Vaporeon.html" id="weak-blue"><span class="text">Vaporeon</span></a>
         <span class="label" id="yellow"></span><a href="Jolteon.html" id="weak-yellow"><span class="text">Jolteon</span></a>
